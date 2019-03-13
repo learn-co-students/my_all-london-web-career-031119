@@ -14,7 +14,6 @@ def my_all?(collection)
   end
 
 my_all?([1,2,3]) {|i| i < 2} 
-binding.pry
 
 # If any element in the collection evaluates to false, then all? should return false. 
 # If they are all true, the method should return true.
